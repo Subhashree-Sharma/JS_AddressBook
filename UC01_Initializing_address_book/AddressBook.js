@@ -6,7 +6,7 @@ class AddressBook {
         this.contacts = this.loadContacts();
     }
 
-    // Load contacts from a file (instead of localStorage)
+    //Load contacts from a file (instead of localStorage)
     loadContacts() {
         try {
             if (fs.existsSync(this.filePath)) {
@@ -19,7 +19,7 @@ class AddressBook {
         return [];
     }
 
-    // Save contacts to a file (instead of localStorage)
+    //Save contacts to a file (instead of localStorage)
     saveContacts() {
         fs.writeFileSync(this.filePath, JSON.stringify(this.contacts, null, 2), 'utf8');
     }
@@ -43,7 +43,7 @@ class AddressBook {
     }
 }
 
-// Example Usage
+//Example Usage
 const addressBook = new AddressBook();
 addressBook.addContact('John', 'Doe', '123 Street', 'New York', 'NY', '10001', '9876543210', 'john@example.com');
 

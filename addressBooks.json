@@ -1,25 +1,56 @@
 {
-  "Personal": [],
-  "Work": [
+  "Personal": [
     {
-      "firstName": "Alice",
-      "lastName": "Smith",
-      "address": "456 Market St",
-      "city": "Berkhera pathani",
-      "state": "California",
-      "zip": "90001",
-      "phone": "9876543211",
-      "email": "john.new@example.com"
+      "firstName": "Subhashree",
+      "lastName": "Sharma",
+      "address": "123 Main St",
+      "city": "New York",
+      "state": "New York",
+      "zip": "10001",
+      "phone": "9876543210",
+      "email": "subha.doe@example.com"
     },
     {
-      "firstName": "Alice",
-      "lastName": "Smith",
+      "firstName": "Subhashree",
+      "lastName": "Sharma",
+      "address": "123 Main St",
+      "city": "New York",
+      "state": "New York",
+      "zip": "10001",
+      "phone": "9876543210",
+      "email": "subha.doe@example.com"
+    }
+  ],
+  "Work": [
+    {
+      "firstName": "Pooja",
+      "lastName": "Chacha",
       "address": "456 Market St",
       "city": "Berkhera pathani",
       "state": "California",
       "zip": "90001",
       "phone": "9123456789",
-      "email": "alice.smith@example.com"
+      "email": "pooja.smith@example.com"
+    },
+    {
+      "firstName": "Pooja",
+      "lastName": "Chacha",
+      "address": "456 Market St",
+      "city": "Berkhera pathani",
+      "state": "California",
+      "zip": "90001",
+      "phone": "9123456789",
+      "email": "pooja.smith@example.com"
+    },
+    {
+      "firstName": "Pooja",
+      "lastName": "Chacha",
+      "address": "456 Market St",
+      "city": "Berkhera pathani",
+      "state": "California",
+      "zip": "90001",
+      "phone": "9123456789",
+      "email": "pooja.smith@example.com"
     }
   ]
 }
